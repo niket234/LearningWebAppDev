@@ -16,7 +16,7 @@ header {
   overflow: auto;
 }
 
-header h1 {
+h1 {
   float: left;
   width: 570px;
 }
@@ -30,7 +30,7 @@ main {
   background: khaki;
   overflow: auto;
   font: 20px Arial, Verdana, Helvetica, sans-serif;
-  padding: 0em 3em 0em 3em;
+  padding: 0 3em 0 3em;
   color: darkgoldenrod;
   font-weight: bold;
 }
