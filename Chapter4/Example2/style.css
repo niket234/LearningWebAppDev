@@ -101,13 +101,23 @@ main {
   border-radius: 5px;
 }
 
-.comments p.user {
+.comments p.user:nth-child(odd){
     background: lavender;
 }
 
-.comments p.user2 {
-    background: gainsboro;
+.comments p.user:nth-child(even){
+    background: blue;
 }
+
+
+.comments p.user2:nth-child(odd) {
+    background: pink;
+}
+
+.comments p.user2:nth-child(even) {
+    background: green;
+}
+
 
 footer {
     font-size: smaller;
